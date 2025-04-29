@@ -1,0 +1,203 @@
+InsightEye.AI Drone Inspection Report
+==========================================
+
+Project: drone inspection
+Client: drone
+Site: insighteye.com
+Date: 2025-04-29
+Status: Active
+
+Progress Summary:
+-----------------
+Overall Progress: 3%
+Not Started: 30
+In Progress: 2
+Completed: 1
+Blocked: 0
+
+Phase Details:
+=============
+
+Pre-Inspection Planning:
+-----------------------
+Task: Inspection Schedule Planning
+  Assigned to: Drone Pilot
+  Status: In Progress
+  Duration: 4 hours
+  Notes: he is doing his work
+
+Task: Weather & Radiation Forecasting
+  Assigned to: somesh
+  Status: In Progress
+  Duration: 2 hours
+  Notes: good
+
+Task: Flight Path & Mission Planning
+  Assigned to: pallavi
+  Status: Completed
+  Duration: 4 hours
+  Notes: good
+
+Task: Instruction Preparation for Drone Pilot
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+Task: Equipment Check & Calibration
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+
+Site Inspection:
+---------------
+Task: Drone Pilot Briefing
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 1 hour
+
+Task: Provide Flight Parameters & Requirements
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 1 hour
+
+Task: Morning RGB Session: Soiling Detection
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Midday Thermal Session: Hotspot Detection
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Data Verification in Field
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+Task: Immediate Quality Check
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+
+Data Upload:
+-----------
+Task: Drone Data Collection
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 1 hour
+
+Task: File Organization & Labeling
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+Task: Pilot Access to InsightEye.AI Dashboard
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 0.5 hours
+
+Task: Upload to GCP Bucket
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Upload Confirmation
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 0.5 hours
+
+Task: Automated Upload Notification
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 0.5 hours
+
+
+Data Processing:
+---------------
+Task: Pipeline Initiation
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 1 hour
+
+Task: Video Extraction & Frame Parsing
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 4 hours
+
+Task: RGB Processing: Soiling Analysis
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 6 hours
+
+Task: Thermal Processing: Defect Detection
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 8 hours
+
+Task: Geolocation Data Extraction
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: AI Model Processing
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 6 hours
+
+Task: Defect Classification & Validation
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 4 hours
+
+Task: Results Database Storage
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+
+Analysis & Reporting:
+--------------------
+Task: Data Compilation & Statistics
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Defect Distribution Analysis
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 4 hours
+
+Task: Severity Classification
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+Task: Maintenance Recommendation Generation
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Report Generation
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 6 hours
+
+Task: Quality Assurance Review
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 2 hours
+
+Task: Client Dashboard Update
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 3 hours
+
+Task: Final Report Delivery
+  Assigned to: Unassigned
+  Status: Not Started
+  Duration: 1 hour
+
+

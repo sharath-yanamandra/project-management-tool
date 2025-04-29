@@ -1,0 +1,923 @@
+{
+    "projects": [
+        {
+            "id": "c3772eba-0ded-45f2-bb72-aa035f3d409c",
+            "name": "drone inspection",
+            "client": "drone",
+            "site": "insighteye.com",
+            "created_date": "2025-04-29",
+            "status": "Active",
+            "phases": [
+                {
+                    "phase_id": "phase1",
+                    "phase_name": "Pre-Inspection Planning",
+                    "color": "#e1f5fe",
+                    "tasks": [
+                        {
+                            "id": "e0484b0e-20f1-4465-9fed-341a6d31c4bb",
+                            "name": "Inspection Schedule Planning",
+                            "assignee": "",
+                            "status": "",
+                            "notes": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": "5b139798-0d8a-445a-81cc-e35c726d54cd",
+                            "name": "Weather & Radiation Forecasting",
+                            "assignee": "",
+                            "status": "",
+                            "notes": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": "21c70144-6eca-405a-ba82-c0d97ad92421",
+                            "name": "Flight Path & Mission Planning",
+                            "assignee": "",
+                            "status": "",
+                            "notes": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": "12518185-9048-4ab2-b979-8ce9d391d616",
+                            "name": "Instruction Preparation for Drone Pilot",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "db5d82f1-372c-440f-9cd2-fc43974e8559",
+                            "name": "Equipment Check & Calibration",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase2",
+                    "phase_name": "Site Inspection",
+                    "color": "#e8f5e9",
+                    "tasks": [
+                        {
+                            "id": "97f80f42-e374-4571-856d-c0bfbfdd6fe7",
+                            "name": "Drone Pilot Briefing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "1eed65dc-f0d9-435b-acdc-4006f1f32fb7",
+                            "name": "Provide Flight Parameters & Requirements",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "e5e75566-ef37-441c-83b6-70c853584355",
+                            "name": "Morning RGB Session: Soiling Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "27a527d5-1b86-48ae-9396-4546dce59b93",
+                            "name": "Midday Thermal Session: Hotspot Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "0a8cc1da-ee31-4265-ac18-3b6087e86760",
+                            "name": "Data Verification in Field",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "b367a256-3840-4b3d-a8d8-30c1a2782ec3",
+                            "name": "Immediate Quality Check",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase3",
+                    "phase_name": "Data Upload",
+                    "color": "#fff8e1",
+                    "tasks": [
+                        {
+                            "id": "29e4225d-2705-422c-bb92-27c18adba693",
+                            "name": "Drone Data Collection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "ad9301f8-a537-452d-a6c2-7ebc658e1607",
+                            "name": "File Organization & Labeling",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "b0443975-83e8-4eba-af72-135b9a550059",
+                            "name": "Pilot Access to InsightEye.AI Dashboard",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        },
+                        {
+                            "id": "6469ff91-5207-413c-9c39-2894ec11078c",
+                            "name": "Upload to GCP Bucket",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "03d76ca3-80e8-415f-a777-84b0a70f2aa6",
+                            "name": "Upload Confirmation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        },
+                        {
+                            "id": "40c8a8e9-695e-4885-a490-96a9d2d677d8",
+                            "name": "Automated Upload Notification",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase4",
+                    "phase_name": "Data Processing",
+                    "color": "#f3e5f5",
+                    "tasks": [
+                        {
+                            "id": "86398eac-5767-436f-8e7e-2d5de648ad5e",
+                            "name": "Pipeline Initiation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "7a2062e5-26ac-4bc6-8fb1-4136d508c18d",
+                            "name": "Video Extraction & Frame Parsing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "f023a60e-506f-47b6-9305-91dd1c62949a",
+                            "name": "RGB Processing: Soiling Analysis",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "56b2aa75-4478-4a9f-aab6-87d51834b06b",
+                            "name": "Thermal Processing: Defect Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "8 hours"
+                        },
+                        {
+                            "id": "bbe1d99d-a00f-428d-85bf-2f9dda7804aa",
+                            "name": "Geolocation Data Extraction",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "d36b4e0a-814c-4f76-811a-79f516b4f9ff",
+                            "name": "AI Model Processing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "1070fd48-407e-412e-a668-02a00a55105e",
+                            "name": "Defect Classification & Validation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "af419af0-4962-4526-8149-5d9c1f13f4b9",
+                            "name": "Results Database Storage",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase5",
+                    "phase_name": "Analysis & Reporting",
+                    "color": "#fce4ec",
+                    "tasks": [
+                        {
+                            "id": "f0fd08c0-a334-45ac-b577-2029746e9134",
+                            "name": "Data Compilation & Statistics",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "6ebfba47-8709-4cc0-9e74-eab74af45cbe",
+                            "name": "Defect Distribution Analysis",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "dc0404a2-dbc0-4151-946a-524ce817d5c4",
+                            "name": "Severity Classification",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "c02c6294-1fe0-4279-ae2a-6fa8dbd1072d",
+                            "name": "Maintenance Recommendation Generation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "1ada5b09-21a8-4d4c-9413-9ce0b271f66e",
+                            "name": "Report Generation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "84e2a518-a1c8-4145-9a23-e5ce744416c0",
+                            "name": "Quality Assurance Review",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "5cec8eab-815f-4844-82ba-3c00d4221b75",
+                            "name": "Client Dashboard Update",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "8ae52aaa-d552-4c4e-b95b-62eafe33e190",
+                            "name": "Final Report Delivery",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dcdd1216-7e34-4811-9c16-a9a17a53c5af",
+            "name": "abc",
+            "client": "ctrls",
+            "site": "ai.ai",
+            "created_date": "2025-04-29",
+            "status": "Active",
+            "phases": [
+                {
+                    "phase_id": "phase1",
+                    "phase_name": "Pre-Inspection Planning",
+                    "color": "#e1f5fe",
+                    "tasks": [
+                        {
+                            "id": "a5f40822-0cc8-4caa-a739-092e1f50b288",
+                            "name": "Inspection Schedule Planning",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "3ecac047-0836-4e26-aad0-e69f28b49e34",
+                            "name": "Weather & Radiation Forecasting",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "461f8cf2-d7e4-48a8-bef6-bdd220fdd083",
+                            "name": "Flight Path & Mission Planning",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "32300bbc-779d-453e-bda7-a6a47246f669",
+                            "name": "Instruction Preparation for Drone Pilot",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "b5a16359-c87c-46b5-8ae7-49500e14e1aa",
+                            "name": "Equipment Check & Calibration",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase2",
+                    "phase_name": "Site Inspection",
+                    "color": "#e8f5e9",
+                    "tasks": [
+                        {
+                            "id": "cb90e82d-3f9c-460c-a3fd-12d8047c3452",
+                            "name": "Drone Pilot Briefing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "d4888aeb-4609-4df2-8194-9939f8634182",
+                            "name": "Provide Flight Parameters & Requirements",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "13fa6b7b-cc6d-442b-810a-303682a73215",
+                            "name": "Morning RGB Session: Soiling Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "acb4d1fc-1adb-42bc-827f-cfc13efe28d6",
+                            "name": "Midday Thermal Session: Hotspot Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "d6be85d2-df47-4140-90bc-b6820107a63c",
+                            "name": "Data Verification in Field",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "11495251-6020-41df-a12c-9759d7d2ae26",
+                            "name": "Immediate Quality Check",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase3",
+                    "phase_name": "Data Upload",
+                    "color": "#fff8e1",
+                    "tasks": [
+                        {
+                            "id": "adabdc5c-ea71-4921-b55b-77199591e3a2",
+                            "name": "Drone Data Collection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "67d9ba2f-83c2-466a-8129-f213b8f50406",
+                            "name": "File Organization & Labeling",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "a505fef2-4215-4080-b715-705ddd423262",
+                            "name": "Pilot Access to InsightEye.AI Dashboard",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        },
+                        {
+                            "id": "7b52a48a-872f-4678-802e-d35331655de4",
+                            "name": "Upload to GCP Bucket",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "ecbcccc9-47a2-45c4-ba0c-909d5865f8ae",
+                            "name": "Upload Confirmation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        },
+                        {
+                            "id": "ab1e5e94-2bc2-43c3-9f4c-2d2fe0c2cb9b",
+                            "name": "Automated Upload Notification",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "0.5 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase4",
+                    "phase_name": "Data Processing",
+                    "color": "#f3e5f5",
+                    "tasks": [
+                        {
+                            "id": "ac59b8dc-3aed-4404-a08e-72a05c9b558b",
+                            "name": "Pipeline Initiation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        },
+                        {
+                            "id": "35514f82-2d0c-4eb1-bf48-8d208e5f61c2",
+                            "name": "Video Extraction & Frame Parsing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "8691f47d-5143-4a96-9a01-ed4ca381e050",
+                            "name": "RGB Processing: Soiling Analysis",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "a7aed7a2-bd4a-4cfe-91ab-916a76010636",
+                            "name": "Thermal Processing: Defect Detection",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "8 hours"
+                        },
+                        {
+                            "id": "2519afd2-b69e-473a-8621-cb9c24cdcf64",
+                            "name": "Geolocation Data Extraction",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "b0adc4d1-4bad-4b9c-a8c4-4dc17f599be4",
+                            "name": "AI Model Processing",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "d466af81-fd4c-4906-9bff-798d75265300",
+                            "name": "Defect Classification & Validation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "7e7c4df1-6d9c-44bf-8886-34d9564bb57d",
+                            "name": "Results Database Storage",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        }
+                    ]
+                },
+                {
+                    "phase_id": "phase5",
+                    "phase_name": "Analysis & Reporting",
+                    "color": "#fce4ec",
+                    "tasks": [
+                        {
+                            "id": "ade7ff03-abc2-4e39-b318-ec9d2d685052",
+                            "name": "Data Compilation & Statistics",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "08807fa0-ae55-4373-bbd1-27ddc4c09bda",
+                            "name": "Defect Distribution Analysis",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "4 hours"
+                        },
+                        {
+                            "id": "c8dc4ca0-30e8-4868-b8b2-0996fa793c67",
+                            "name": "Severity Classification",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "aa8b78ec-f337-475c-a0ca-17b6dc7ec197",
+                            "name": "Maintenance Recommendation Generation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "a7289869-3849-4f43-be8d-2c18506e1fcd",
+                            "name": "Report Generation",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "6 hours"
+                        },
+                        {
+                            "id": "45b955c0-5fc6-4289-a62f-116071ae5f26",
+                            "name": "Quality Assurance Review",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "2 hours"
+                        },
+                        {
+                            "id": "f03c646c-12ce-48fd-bf5b-e85a65b3038f",
+                            "name": "Client Dashboard Update",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "3 hours"
+                        },
+                        {
+                            "id": "b0f4aa89-00f2-4e40-ba1a-e3c19a39501c",
+                            "name": "Final Report Delivery",
+                            "assignee": "",
+                            "status": "Not Started",
+                            "notes": "",
+                            "duration": "1 hour"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "workflow_template": [
+        {
+            "phase_id": "phase1",
+            "phase_name": "Pre-Inspection Planning",
+            "color": "#e1f5fe",
+            "tasks": [
+                {
+                    "id": "e7c84f94-3a5f-4dfa-80ab-c217e2403218",
+                    "name": "Inspection Schedule Planning",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "4 hours"
+                },
+                {
+                    "id": "4b95a66d-e4a2-4186-9cea-34733c055317",
+                    "name": "Weather & Radiation Forecasting",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "e365e174-0acc-47bc-869b-ca51d6432d7b",
+                    "name": "Flight Path & Mission Planning",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "4 hours"
+                },
+                {
+                    "id": "e1ba98f2-94c5-4202-9751-83210549e977",
+                    "name": "Instruction Preparation for Drone Pilot",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "4d9f7f74-f940-4fa0-97e6-0e1db7f063e7",
+                    "name": "Equipment Check & Calibration",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                }
+            ]
+        },
+        {
+            "phase_id": "phase2",
+            "phase_name": "Site Inspection",
+            "color": "#e8f5e9",
+            "tasks": [
+                {
+                    "id": "d95b5c4e-eb28-4f03-923e-6f884f315587",
+                    "name": "Drone Pilot Briefing",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "1 hour"
+                },
+                {
+                    "id": "3a4797eb-c9ec-4ab3-a3a9-86eac11bb0cc",
+                    "name": "Provide Flight Parameters & Requirements",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "1 hour"
+                },
+                {
+                    "id": "4c6b65d8-4cf2-43b7-833f-66bbc84e44f2",
+                    "name": "Morning RGB Session: Soiling Detection",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "ed57040b-6547-451f-b9a1-273e64632b25",
+                    "name": "Midday Thermal Session: Hotspot Detection",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "95447574-bba2-4a88-ba84-636c440ae208",
+                    "name": "Data Verification in Field",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "14f52f91-424c-4294-b935-f8ca0e5fdce8",
+                    "name": "Immediate Quality Check",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                }
+            ]
+        },
+        {
+            "phase_id": "phase3",
+            "phase_name": "Data Upload",
+            "color": "#fff8e1",
+            "tasks": [
+                {
+                    "id": "7622c9eb-0a8a-4589-8211-198fb9195aa6",
+                    "name": "Drone Data Collection",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "1 hour"
+                },
+                {
+                    "id": "995d0838-903b-48f2-9d29-1a744b0f9575",
+                    "name": "File Organization & Labeling",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "9eeb132b-5c60-47bf-bcd4-6071ab709357",
+                    "name": "Pilot Access to InsightEye.AI Dashboard",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "0.5 hours"
+                },
+                {
+                    "id": "6a369692-8dc9-4451-a73a-e1c7e660cb27",
+                    "name": "Upload to GCP Bucket",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "e144c349-e9db-4d5c-a4ff-191ced0f8ba3",
+                    "name": "Upload Confirmation",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "0.5 hours"
+                },
+                {
+                    "id": "b3ad6014-d2bd-4709-8cdd-b10991f6f176",
+                    "name": "Automated Upload Notification",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "0.5 hours"
+                }
+            ]
+        },
+        {
+            "phase_id": "phase4",
+            "phase_name": "Data Processing",
+            "color": "#f3e5f5",
+            "tasks": [
+                {
+                    "id": "46e54a4d-32eb-4f6b-8c0d-10aa0c903db9",
+                    "name": "Pipeline Initiation",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "1 hour"
+                },
+                {
+                    "id": "ebff4b31-8a5d-4f12-825d-ab5ecb46450e",
+                    "name": "Video Extraction & Frame Parsing",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "4 hours"
+                },
+                {
+                    "id": "13d7d1b2-cb60-42a5-9855-931608239422",
+                    "name": "RGB Processing: Soiling Analysis",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "6 hours"
+                },
+                {
+                    "id": "a636f806-89b1-41f7-9585-776903b691a5",
+                    "name": "Thermal Processing: Defect Detection",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "8 hours"
+                },
+                {
+                    "id": "652d0b2f-6838-44f0-b8cb-cf683d03e6c3",
+                    "name": "Geolocation Data Extraction",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "8b9d053e-c9f2-4f44-84eb-b0cce7ef24c5",
+                    "name": "AI Model Processing",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "6 hours"
+                },
+                {
+                    "id": "bc82e346-695b-48fe-8ea9-f7bc1b535dbf",
+                    "name": "Defect Classification & Validation",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "4 hours"
+                },
+                {
+                    "id": "760495f2-07c5-4545-887a-f94a3a105659",
+                    "name": "Results Database Storage",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                }
+            ]
+        },
+        {
+            "phase_id": "phase5",
+            "phase_name": "Analysis & Reporting",
+            "color": "#fce4ec",
+            "tasks": [
+                {
+                    "id": "1f6f43c9-59cf-45b0-b81e-12a94179198c",
+                    "name": "Data Compilation & Statistics",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "954e9af9-3863-4a18-a371-c583d870fae2",
+                    "name": "Defect Distribution Analysis",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "4 hours"
+                },
+                {
+                    "id": "72eda749-46a2-4aa0-ae70-c511208cf51d",
+                    "name": "Severity Classification",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "146839de-b428-4d59-ba2d-7f29146b6642",
+                    "name": "Maintenance Recommendation Generation",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "314989fa-1266-4c06-bf83-77a985ec9729",
+                    "name": "Report Generation",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "6 hours"
+                },
+                {
+                    "id": "657f56c1-aafb-41b2-abf6-65ef77285a0e",
+                    "name": "Quality Assurance Review",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "2 hours"
+                },
+                {
+                    "id": "0d1e9fd1-f6b3-4ac3-a463-2e1ddb137841",
+                    "name": "Client Dashboard Update",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "3 hours"
+                },
+                {
+                    "id": "370d7397-fa14-4634-a16b-d4830051a6bc",
+                    "name": "Final Report Delivery",
+                    "assignee": "",
+                    "status": "Not Started",
+                    "notes": "",
+                    "duration": "1 hour"
+                }
+            ]
+        }
+    ]
+}
